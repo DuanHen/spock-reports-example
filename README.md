@@ -1,0 +1,1 @@
+# spock-reports-example
