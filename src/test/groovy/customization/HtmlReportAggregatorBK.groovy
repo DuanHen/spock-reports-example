@@ -15,7 +15,7 @@ import static com.athaydes.spockframework.report.internal.ReportDataAggregator.g
 import static com.athaydes.spockframework.report.internal.SpecSummaryNameOption.*
 
 @Slf4j
-class HtmlReportAggregator extends AbstractHtmlCreator<Map> {
+class HtmlReportAggregatorBK extends AbstractHtmlCreator<Map> {
     final Map<String, Map> aggregatedData = [:]
 
     def stringFormatter = new StringFormatHelper()
